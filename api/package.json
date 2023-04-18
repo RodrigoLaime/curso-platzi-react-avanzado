@@ -1,10 +1,10 @@
 {
-  "name": "curso-avanzado-graphql-server",
+  "name": "curso-platzi-react-avanzado",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "now -t <tu-token>",
+    "vercel-build": "npm run build",
     "start:api": "NODE_ENV=production node index.js",
     "dev:api": "nodemon index.js --ignore db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,17 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "2.5.0",
-    "bcrypt": "3.0.6",
-    "cors": "2.8.5",
-    "express": "4.17.0",
-    "express-jwt": "5.3.1",
-    "graphql": "14.3.0",
-    "jsonwebtoken": "8.5.1",
-    "lowdb": "1.0.0",
-    "uuid": "3.3.2"
+    "@apollo/server": "^4.6.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "lowdb": "^5.1.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "nodemon": "1.19.0"
+    "nodemon": "^2.0.22"
   }
 }

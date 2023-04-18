@@ -1,13 +1,13 @@
 {
     "version": 2,
-    "name": "petgram-server-rodrigoL",
+
     "alias": [
         "petgram-api-rodrigoL"
     ],
     "builds": [
-        {
-            "src": "index.js",
-            "use": "@vercel/node"
+        {           
+            "src": "package.json",
+            "use": "@vercel/static-build"
         }
     ],
     "routes": [

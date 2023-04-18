@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-const { ApolloServer } = require('apollo-server-express')
+const { ApolloServer } = require('@apollo/server')
 const { resolvers, typeDefs } = require('./schema')
 const jwt = require('express-jwt')
 

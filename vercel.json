@@ -3,8 +3,8 @@
     "name": "petgram-zenaku",
     "builds": [
         {
-            "use": "@versel/static-build",
-            "src": "package.json"
+            "src": "index.js",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
